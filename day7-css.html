@@ -1,0 +1,224 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background: #f0f2f5;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #ccc;
+            width: 300px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            font-size: larger;
+            margin-bottom: 10px;
+        }
+        .intro {
+            color: #666;
+            line-height: 1.5;
+        }
+        .skills-list {
+            display: flex; 
+            justify-content: center;
+            padding: 0; 
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+        .skills-items {
+           background: #e9ecef; 
+           color: #333;
+           padding: 5px 10px;
+        } 
+         .btn {
+            display: inline-block; 
+            background: #007bff; 
+            color: #ffffff;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+         }
+
+    </style>
+
+</head>
+<body>
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/da/59/64/da59647bd31dd524c09991cb89949804.jpg" alt="profile-img" class="profile-img">
+        <h2>Muhammad Yousuf</h2>
+        <p class="intro">I am Frontend Web-Developer.</p>
+        <ul class="skills-list">
+            <li class="skills-items">HTML</li>
+            <li class="skills-items">CSS</li>
+            <li class="skills-items">JavaScript</li>
+        </ul>
+        <a href="mailto:yousuf@example.com" class="btn">Contact Me</a>
+    </div>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            background: #fafafa;
+            font-family: sans-serif;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .recipe-container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+
+        .recipe-header {
+            text-align: center;
+        }
+
+        h1 {
+            color: #d35400;
+        }
+        h3 {
+            color: ;
+        }
+        .recipe-img {
+            width: 100%;
+            height: auto;
+            margin: 15px 0;
+        }
+
+        .recipe-content {
+            display: flex; 
+        }
+
+        .ingredients, .instructions {
+            padding: 10px;
+        }
+
+        .ingredients {
+            width: 40%;
+            background: #fdfdfd;
+            border: 1px solid #eee;
+        }
+
+        .instructions {
+            width: 60%;
+        }
+
+        .tips {
+            background: #e8f8f5;
+            padding: 15px;
+            border: 2px solid #1abc9c;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .recipe-content {
+                display: block;
+            }
+            
+            .ingredients, .instructions {
+                width: 100%;
+                padding: 0;
+            }
+
+            .ingredients {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="recipe-container">
+        <header class="recipe-header">
+            <h1>Classic Lasagna</h1>
+            <h2>Prep: 30m | Serves: 6</h2>
+            <p>Classic lasagna is a rich and comforting Italian dish made by layering flat pasta sheets with a savory meat sauce (ragù), creamy béchamel or ricotta cheese, and melted mozzarella. Baked until bubbly and golden brown, it is a timeless comfort food favorite.</p>
+            <img src="https://images.pexels.com/photos/34474031/pexels-photo-34474031.jpeg?auto=compress&w=600" alt="Lasagna" class="recipe-img">
+            </header>
+
+        <div class="recipe-content">
+            <section class="ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>Lasagna noodles</li>
+                    <li>Ground beef</li>
+                    <li>Mozzarella cheese</li>
+                    <li>Tomato sauce</li>
+                </ul>
+            </section>
+
+            <section class="instructions">
+                <h2>Steps</h2>
+                <ol>
+                    <li>Cook the lasagna noodles.</li>
+                    <li>Brown the ground beef and add sauce.</li>
+                    <li>Layer meat, noodles, and cheese.</li>
+                    <li>Bake until golden brown.</li>
+                </ol>
+            </section>
+        </div>
+
+        <footer class="tips">
+            <h2>Tips</h2>
+            <p>Cover with foil for the first 20 minutes to prevent the cheese from burning.</p>
+        </footer>
+    </main>
+
+</body>
+</html>
